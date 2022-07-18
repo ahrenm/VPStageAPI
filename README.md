@@ -11,7 +11,7 @@ The API is designed to operate in a UE Multi-User environment. All API calls wil
 
 This is a ***BETA*** release and should be tested well before use. Please report any bugs here or hit me on socials/Discord
 
-####A Sample of functions exposed by the API
+#### A Sample of functions exposed by the API
 ![VP API Sample Functions](/images/FunctionList1.png)
 
 Ahren M
