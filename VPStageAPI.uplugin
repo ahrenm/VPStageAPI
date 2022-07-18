@@ -1,0 +1,57 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VPStageAPI",
+	"Description": "This plugin provides a consistant and project indepdent API for managing Virtual Production stages. It includes both C++ and Blueprint implementations & supports UE Multi-User environments.",
+	"Category": "Other",
+	"CreatedBy": "Ahren Morris",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Plugins": [
+        {
+          "Name": "nDisplay",
+          "Enabled": true
+        },
+        {
+          "Name": "MultiUserClient",
+          "Enabled": true
+        },
+        {
+          "Name": "ConcertMain",
+          "Enabled": true
+        }
+	],
+	"Modules": [
+        {
+          "Name": "VPStageAPI",
+          "Type": "Runtime",
+          "LoadingPhase": "Default",
+          "WhitelistPlatforms": ["Win64"]
+        },
+        {
+          "Name": "VPStageAPIShared",
+          "Type": "Runtime",
+          "LoadingPhase": "Default",
+          "WhitelistPlatforms": ["Win64"]
+        },
+        {
+          "Name": "VPStageAPIEditor",
+          "Type": "Editor",
+          "LoadingPhase": "PostEngineInit",
+          "WhitelistPlatforms": ["Win64"]
+        },
+        {
+          "Name": "VPStageAPIGame",
+          "Type": "Runtime",
+          "LoadingPhase": "PostEngineInit",
+          "WhitelistPlatforms": ["Win64"]
+        }
+	]
+}
